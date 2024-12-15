@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}Inicio - Seminario{% endblock title %}
+
+{% block content %}
+<div class="p-5 text-center bg-light rounded-3">
+    <h1 class="display-4">Bienvenido al Seminario de Gastronomía</h1>
+    <p class="lead">Administra los inscritos y las instituciones participantes con facilidad.</p>
+    <hr class="my-4">
+    <p>¿Qué deseas hacer hoy?</p>
+    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+        <a href="{% url 'inscrito_list' %}" class="btn btn-primary btn-lg px-4 gap-3">Gestionar Inscritos</a>
+        <a href="{% url 'instituciones_list' %}" class="btn btn-secondary btn-lg px-4">Gestionar Instituciones</a>
+    </div>
+</div>
+{% endblock content %}

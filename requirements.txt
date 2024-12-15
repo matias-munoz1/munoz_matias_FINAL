@@ -1,0 +1,5 @@
+Django==5.1.1
+mysql-connector-python
+djangorestframework==3.15.0
+python-decouple==3.8
+django-widget-tweaks==1.4.0
