@@ -1,3 +1,5 @@
+PROFESOR PEDRO AL USAR POR PRIMERA VEZ python manage.py runserver  NO SE VERA NINGUN DATO Y SI REINICIA Y LUEGO VUELVE USAR DATOS SE AGREGARAN LAS INSTITUCIONES CON SU LLAVE UNICA ! SOLO ES MIGRAR Y LISTO TODO. MAS QUE NADA PARA QUE FUNCIONE LA API REST DESDE UN LUGAR QUE NO SEA EL ADMIN Y CREAR LOS DATOS DE UNA MANERA TEDIOSA OPTE POR USAR EL SCRIPT Y SE GENERAN SOLAS, SALUDOS GRACIAS
+
 # Seminario - Lista de Inscritos
 
 Este proyecto es una aplicación web desarrollada con **Django** para gestionar la lista de inscritos y las instituciones participantes en un seminario de gastronomía. Incluye funcionalidades para la gestión completa de datos y una API pública para integraciones futuras.
