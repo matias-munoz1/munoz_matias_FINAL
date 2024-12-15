@@ -37,8 +37,8 @@ Sigue estos pasos para ejecutar el proyecto en tu máquina local:
 
 # 1. Clona el repositorio
 ```bash
-git clone https://github.com/matias-munoz1/seminario_lista_inscritos.git
-cd seminario_lista_inscritos
+git clone https://github.com/matias-munoz1/munoz_matias_FINAL.git
+cd munoz_matias_FINAL
 ```
 
 # 2. Instala las dependencias
