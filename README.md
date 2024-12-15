@@ -60,18 +60,12 @@ DATABASE_HOST=localhost
 DATABASE_PORT=3306
 ```
 
-# 4. Aplica las migraciones de la base de datos
-```bash
-python manage.py makemigrations
-python manage.py migrate
-```
-
-# 5. Ejecuta el servidor
+4 5. Ejecuta el servidor
 ```bash
 python manage.py runserver
 ```
 
-# 6. Accede a la aplicación en tu navegador
+# 5. Accede a la aplicación en tu navegador
 ```bash
 URL: http://127.0.0.1:8000
 ```
