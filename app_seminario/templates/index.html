@@ -12,5 +12,11 @@
         <a href="{% url 'inscrito_list' %}" class="btn btn-primary btn-lg px-4 gap-3">Gestionar Inscritos</a>
         <a href="{% url 'instituciones_list' %}" class="btn btn-secondary btn-lg px-4">Gestionar Instituciones</a>
     </div>
+    
+    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mt-4">
+        <a href="{% url 'api-inscritos' %}" class="btn btn-info btn-lg px-4">Ver API de Inscritos</a>
+        <a href="{% url 'api-instituciones' %}" class="btn btn-warning btn-lg px-4">Ver API de Instituciones</a>
+    </div>
+   
 </div>
 {% endblock content %}

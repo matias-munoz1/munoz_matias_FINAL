@@ -1,0 +1,12 @@
+{% extends "rest_framework/base.html" %}
+
+{% block title %}API - Seminario{% endblock %}
+
+{% block content %}
+    {{ block.super }} 
+    <div style="text-align: center; margin-top: 20px;">
+        <a href="{% url 'index' %}" class="btn btn-dark" style="padding: 10px 20px; font-size: 16px; text-decoration: none;">
+            Volver a Inicio
+        </a>
+    </div>
+{% endblock %}
